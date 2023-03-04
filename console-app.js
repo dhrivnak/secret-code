@@ -120,7 +120,7 @@ if (method === "encode") {
 } else if (method === "decode") {
   output = decode(input, cypher);
 } else {
-  output = " Unknown method! UNACCEPTABLE!!!";
+  output = "Unknown method! UNACCEPTABLE!!!";
 }
 
 console.log(`\n\nYour ${method}d word is '${output}'\n\n`);
